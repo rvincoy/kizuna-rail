@@ -416,4 +416,23 @@ article.confirmation-page {
             border: 2px solid var(--clr-primary);
         }
     }
+    .booking-details .details-grid {
+        display: grid !important;
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+        grid-auto-flow: row !important;
+        gap: 8px !important;
+        width: 100% !important;
+    }
+    .passengers-info .passenger-detail {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 4px !important;
+        min-width: 0 !important;
+        white-space: nowrap !important;
+    }
+    header, footer, nav, button, .btn, .no-print, .form-control, .form-group, .form-label, #logo, .next-steps, 
+    .important-info {
+        display: none !important;
+    }
 }
